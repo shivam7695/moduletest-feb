@@ -1,0 +1,60 @@
+.app {
+  /* max-width: 600px; */
+  width: 100vh;
+  margin-left: 50% ;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.loader {
+  margin-top: 20px;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+}
+
+.data-container {
+  margin-top: 20px;
+}
+
+.data-item {
+  margin-left: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.data-item div {
+  margin-bottom: 5px;
+}
+
+.filter-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
